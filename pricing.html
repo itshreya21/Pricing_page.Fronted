@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Pricing Structure</title>
+    <link rel="stylesheet" href="C:\Users\LENOVO\Desktop\Project\Pricing_page.Fronted\pricing.css">
+</head>
+<body>
+    <div class="container">
+        <div class="currency-toggle">
+            <label for="currency">Choose currency:</label>
+            <select id="currency">
+                <option value="$">USD</option>
+                <option value="€">EUR</option>
+                <option value="£">GBP</option>
+            </select>
+        </div>
+        <div class="unit-toggle">
+            <label for="unit">Choose unit:</label>
+            <select id="unit">
+                <option value="month">Month</option>
+                <option value="year">Year</option>
+            </select>
+        </div>
+        <div class="pricing-table">
+            <div class="plan">
+                <h3>Basic Plan</h3>
+                <p class="price" id="basic-price"></p>
+                <p>Features: Feature 1, Feature 2, Feature 3</p>
+            </div>
+            <div class="plan">
+                <h3>Standard Plan</h3>
+                <p class="price" id="standard-price"></p>
+                <p>Features: Feature 1, Feature 2, Feature 3, Feature 4</p>
+            </div>
+            <div class="plan">
+                <h3>Premium Plan</h3>
+                <p class="price" id="premium-price"></p>
+                <p>Features: Feature 1, Feature 2, Feature 3, Feature 4, Feature 5</p>
+            </div>
+        </div>
+    </div>
+    <script src="C:\Users\LENOVO\Desktop\Project\Pricing_page.Fronted\pricing.js"></script>
+</body>
+</html>
